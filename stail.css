@@ -1,0 +1,32 @@
+body{
+    background: linear-gradient(45deg,#00FFFF,#008080,#0000FF,#000080);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+    text-align: center;
+}
+
+@keyframes gradient {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 0%;
+    }
+    100%{
+        background-position: 0% 100%;
+    }
+    
+}
+img{
+box-shadow: 0px 0px 40px 10px rgba(0,0,0,0.75);
+border-radius: 30px;
+opacity: 0.7;
+transition: 0.4s;
+margin-top:20px;
+}
+img:hover {
+    opacity:1;
+}
+h1,h2{
+    text-align: center; color: #ffffff;font-family: 'Press Start 2P', cursive;
+}
